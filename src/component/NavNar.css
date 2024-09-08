@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container__nav__bar{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
+
+.nav__logo ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    width: 440px;
+}
+
+
+li{
+    list-style: none;
+}
+
+
+.panier__logo{
+    img{
+        width: 34px;
+    }
+}
